@@ -131,3 +131,29 @@ Example output:
 
 - `Smallest High-Leverage Next Step`
   - Book 5 target-customer calls this week with a concrete price and workflow pitch.
+
+## 5. Tech Debt vs Customer Ask
+
+Situation:
+`A loud customer request is competing with a reliability problem that quietly slows every other ship and creates weekly firefighting.`
+
+Example output:
+
+- `Outcome`
+  - Improve delivery and customer trust over the next month.
+
+- `Current Constraint`
+  - Weekly firefighting is the bottleneck because it taxes every other priority.
+
+- `Vital Few`
+  - `do now`: fix the repeated reliability issue on the hot path
+  - `test first`: validate whether the loud request is broadly valuable or just noisy
+
+- `What To Ignore, Defer, Or Delete`
+  - defer the custom request if it does not unlock near-term revenue or retention
+
+- `Recommendation`
+  - Solve the recurring reliability drag first, then re-evaluate the request with real evidence.
+
+- `Smallest High-Leverage Next Step`
+  - quantify engineering time lost to the issue this week and compare it with the concrete upside of the customer ask
