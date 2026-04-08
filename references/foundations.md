@@ -52,3 +52,16 @@ This method fails when people:
 - use `focus` as cover for underinvesting in quality or risk reduction
 
 Good Pareto startup thinking is disciplined, not slogan-based.
+
+## What Makes This Skill Worth Using
+
+The edge is not `focus` as a slogan.
+
+The edge is this combination:
+
+- bottleneck-fit
+- learning speed
+- carry-cost awareness
+- explicit kill/defer decisions
+
+That makes it more useful than a simple priority list when startup resources are tight.

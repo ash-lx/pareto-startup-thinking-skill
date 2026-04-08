@@ -1,31 +1,38 @@
 ---
 name: pareto-startup-thinking
-description: Identify the smallest set of actions, bets, or decisions most likely to move a startup outcome under real constraints. Use when prioritizing work, narrowing scope, deciding what to build now versus later, choosing where to focus across product or engineering, or when a team needs the vital few instead of a long list.
+description: Choose the smallest set of startup bets most likely to move an outcome under real constraints. Use when a founder, PM, or small team must pick between a few competing moves, name the real bottleneck, and decide what to do now versus defer, test, or kill.
 ---
 
 # Pareto Startup Thinking
 
-Use this skill to find the few things that matter disproportionately in a startup context.
+Use this skill to find the few startup moves that matter disproportionately.
 
-This is not generic 80/20 advice. The goal is to find the `vital few`, check whether they hit the real bottleneck, and choose the smallest high-leverage next move.
+This is not generic 80/20 advice. The goal is to find the `vital few`, check whether they hit the real bottleneck, and choose the smallest high-leverage next move without adding avoidable carry-cost.
 
 ## Best Fit
 
 Use this skill when the user needs:
-- startup prioritization that does not turn into a bloated roadmap
-- a sharper answer on what to build now, later, or not at all
-- a leverage view across product, architecture, backend, frontend, or research
+- a hard choice between a small set of startup bets
+- a sharper answer on what to build now, test first, defer, or kill
 - help separating load-bearing work from visible but low-impact work
+- founder or PM prioritization under runway, team-size, or delivery constraints
+
+Do not use this skill for:
+- open-ended brainstorming with no concrete choice set
+- writing broad strategy docs
+- generic feature prioritization lists with no stated bottleneck
+- detailed execution planning after the vital few have already been chosen
 
 ## Workflow
 
 1. Start with `references/detection-framework.md`.
-   Use it for outcome definition, leverage scoring, and false-focus checks.
+   Use the `Bottleneck -> Leverage -> Learning Speed -> Carry-Cost -> Kill` flow.
 2. If the question is domain-specific, read `references/domain-adapters.md`.
 3. If the case is messy or borderline, read `references/worked-examples.md`.
 4. Use `references/foundations.md` only when you need the logic behind the method.
 5. Return only the few highest-leverage moves by default.
 6. Say explicitly what to defer, delete, or simplify.
+7. If the evidence is weak, prefer `test first` or `measure first` over fake certainty.
 
 ## Output Shape
 
@@ -50,6 +57,8 @@ Keep it concrete and startup-usable.
 - High leverage does not always mean `build now`. Sometimes it means `measure first`, `test first`, or `delete`.
 - Do not confuse visible work with load-bearing work.
 - Do not cut strategically necessary quality, reliability, or risk work just because it is not flashy.
+- If runway is short, bias even harder toward moves that improve learning speed or cash generation.
+- If a bet has high upside but weak evidence, default to a cheaper test before a full build.
 
 ## Default Behavior
 
@@ -57,6 +66,7 @@ Keep it concrete and startup-usable.
 - Name the bottleneck plainly.
 - Recommend what to stop doing, not just what to start doing.
 - If evidence is weak, state assumptions and still make a best-effort recommendation.
+- Make the tradeoff visible: bottleneck-fit, learning speed, and carry-cost.
 
 ## References
 
