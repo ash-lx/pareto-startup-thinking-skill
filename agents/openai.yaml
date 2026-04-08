@@ -1,0 +1,7 @@
+interface:
+  display_name: "Pareto Startup Thinking"
+  short_description: "Find the few startup moves that matter most"
+  default_prompt: "Use $pareto-startup-thinking to identify the highest-leverage moves, what to ignore, and the smallest next step."
+
+policy:
+  allow_implicit_invocation: true
